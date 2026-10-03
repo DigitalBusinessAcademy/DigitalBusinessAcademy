@@ -1,0 +1,10 @@
+{
+  "name": "Digital Business Academy",
+  "short_name": "DBA",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d47a1",
+  "description": "Digital Business Academy - Formations et services en ligne",
+  "icons": []
+}
