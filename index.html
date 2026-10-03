@@ -3,355 +3,159 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta name="theme-color" content="#0757c9">
+<link rel="manifest" href="manifest.json">
 <title>Digital Business Academy</title>
 
 <style>
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background: #f5f7fb;
-  color: #222;
-}
-
-header {
-  background: linear-gradient(135deg, #061b4f, #0b63e5);
-  color: white;
-  padding: 28px 18px;
-  text-align: center;
-}
-
-.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-header p {
-  margin-top: 8px;
-}
-
-.hero {
-  background: white;
-  text-align: center;
-  padding: 45px 20px;
-}
-
-.hero h1 {
-  color: #073b9c;
-  font-size: 30px;
-  margin-bottom: 15px;
-}
-
-.hero p {
-  line-height: 1.6;
-  margin-bottom: 22px;
-}
-
-.button {
-  display: inline-block;
-  background: #0b63e5;
-  color: white;
-  padding: 13px 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.section {
-  padding: 40px 18px;
-}
-
-.section h2 {
-  text-align: center;
-  color: #073b9c;
-  margin-bottom: 25px;
-}
-
-.cards {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 18px;
-}
-
-.card {
-  background: white;
-  padding: 22px;
-  border-radius: 14px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-}
-
-.card h3 {
-  color: #073b9c;
-  margin-bottom: 10px;
-  font-size: 20px;
-}
-
-.card p {
-  line-height: 1.5;
-  margin-bottom: 14px;
-}
-
-.price {
-  color: #e08b00;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.card a {
-  display: inline-block;
-  background: #0b63e5;
-  color: white;
-  padding: 10px 15px;
-  border-radius: 7px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.affiliate {
-  background: #061b4f;
-  color: white;
-  text-align: center;
-  padding: 45px 20px;
-}
-
-.affiliate h2 {
-  margin-bottom: 15px;
-}
-
-.affiliate p {
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-.services {
-  background: #eef4ff;
-}
-
-.whatsapp {
-  background: #16a34a;
-}
-
-footer {
-  background: #020b22;
-  color: white;
-  text-align: center;
-  padding: 25px 15px;
-  line-height: 1.7;
-}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f4f7fb;color:#172033}
+header{background:#061a40;color:white;padding:20px;text-align:center;position:sticky;top:0;z-index:10}
+header h1{font-size:22px}
+.hero{background:linear-gradient(135deg,#061a40,#0757c9);color:white;text-align:center;padding:50px 20px}
+.hero h2{font-size:30px;margin-bottom:12px}
+.hero p{max-width:650px;margin:auto;font-size:17px}
+section{max-width:1100px;margin:auto;padding:35px 15px}
+.title{text-align:center;margin-bottom:25px}
+.title h2{color:#061a40;font-size:26px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:white;padding:20px;border-radius:14px;box-shadow:0 3px 15px rgba(0,0,0,.08)}
+.card h3{color:#0757c9;font-size:18px;margin-bottom:8px}
+.price{font-weight:bold;font-size:17px;margin:12px 0}
+.btn{display:block;text-align:center;background:#0757c9;color:white;padding:10px;border-radius:7px;text-decoration:none;font-weight:bold}
+.info{background:white;padding:22px;border-radius:14px;box-shadow:0 3px 15px rgba(0,0,0,.08);margin-top:25px}
+.whatsapp{display:block;text-align:center;background:#25D366;color:white;padding:14px;border-radius:8px;text-decoration:none;font-weight:bold;margin-top:20px}
+footer{background:#061a40;color:white;text-align:center;padding:25px 15px;margin-top:30px}
 </style>
 </head>
 
 <body>
 
 <header>
-  <div class="logo">DIGITAL BUSINESS ACADEMY</div>
-  <p>Formation • Affiliation • Services • Produits digitaux</p>
+<h1>Digital Business Academy</h1>
 </header>
 
+<div class="hero">
+<h2>🎓 Digital Business Academy</h2>
+<p>Apprenez de nouvelles compétences en ligne et développez vos activités.</p>
+</div>
 
-<section class="hero">
+<section>
 
-  <h1>Aprann. Devlope. Avanse.</h1>
+<div class="title">
+<h2>🎓 FORMATIONS</h2>
+</div>
 
-  <p>
-    Byenvini nan Digital Business Academy.
-    Aprann nouvo konpetans epi dekouvri
-    diferan opòtinite sou entènèt.
-  </p>
+<div class="cards">
 
-  <a class="button" href="#formations">
-    Gade formations yo
-  </a>
+<div class="card"><h3>Emballage des cadeaux</h3><div class="price">2,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
-</section>
+<div class="card"><h3>Bricolage pour enfants</h3><div class="price">2,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
+<div class="card"><h3>Tresses africaines</h3><div class="price">1,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
-<!-- ================================= -->
-<!-- TOUT FORMATIONS YO -->
-<!-- ================================= -->
+<div class="card"><h3>Décoration bouteille champagne</h3><div class="price">1,750 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
-<section class="section" id="formations">
+<div class="card"><h3>Onglerie</h3><div class="price">1,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
-  <h2>🎓 Fòmasyon nou yo</h2>
+<div class="card"><h3>Fabrication perruque</h3><div class="price">2,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
-  <div class="cards">
+<div class="card"><h3>Crochet</h3><div class="price">2,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
-    <!-- FORMATION 1 -->
-    <div class="card">
-      <h3>🧶 Crochet</h3>
-      <p>Aprann teknik crochet etap pa etap.</p>
-      <div class="price">750 Gdes</div>
-      <a href="https://wa.me/50942901783">
-        Enskri
-      </a>
-    </div>
+<div class="card"><h3>Macramé</h3><div class="price">2,000 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
+<div class="card"><h3>Art floral</h3><div class="price">1,000 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
-    <!-- FORMATION 2 -->
-    <div class="card">
-      <h3>💄 Lip Gloss</h3>
-      <p>Aprann prepare diferan kalite Lip Gloss.</p>
-      <div class="price">750 Gdes</div>
-      <a href="https://wa.me/50942901783">
-        Enskri
-      </a>
-    </div>
+<div class="card"><h3>Art plastique</h3><div class="price">2,000 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
+<div class="card"><h3>Makeup</h3><div class="price">2,000 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
-    <!-- FORMATION 3 -->
-    <div class="card">
-      <h3>📿 Perlage</h3>
-      <p>Aprann teknik kreyasyon ak perlage.</p>
-      <div class="price">Disponib</div>
-      <a href="https://wa.me/50942901783">
-        Enskri
-      </a>
-    </div>
+<div class="card"><h3>Perlage</h3><div class="price">2,800 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
+<div class="card"><h3>Broderie</h3><div class="price">1,000 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
-    <!-- FORMATION 4 -->
-    <div class="card">
-      <h3>🎨 Canva</h3>
-      <p>Aprann kreye flyers, posts ak designs.</p>
-      <div class="price">Disponib</div>
-      <a href="https://wa.me/50942901783">
-        Enskri
-      </a>
-    </div>
+<div class="card"><h3>Architecture</h3><div class="price">2,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
+<div class="card"><h3>Tableau PVC</h3><div class="price">2,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
-    <!-- FORMATION 5 -->
-    <div class="card">
-      <h3>💻 Maketing Digital</h3>
-      <p>Aprann baz maketing digital.</p>
-      <div class="price">Disponib</div>
-      <a href="https://wa.me/50942901783">
-        Enskri
-      </a>
-    </div>
+<div class="card"><h3>Résine époxy</h3><div class="price">2,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
+<div class="card"><h3>Crème à la glace en cups</h3><div class="price">3,000 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
-    <!-- FORMATION 6 -->
-    <div class="card">
-      <h3>💎 Résine</h3>
-      <p>Aprann teknik pou travay ak résine.</p>
-      <div class="price">Disponib</div>
-      <a href="https://wa.me/50942901783">
-        Enskri
-      </a>
-    </div>
+<div class="card"><h3>Fresco</h3><div class="price">2,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
+<div class="card"><h3>Lip Gloss</h3><div class="price">1,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
-    <!-- FORMATION 7 -->
-    <div class="card">
-      <h3>💇🏽‍♀️ Confection de perik</h3>
-      <p>Aprann prepare ak pèsonalize perik.</p>
-      <div class="price">Disponib</div>
-      <a href="https://wa.me/50942901783">
-        Enskri
-      </a>
-    </div>
+<div class="card"><h3>Marketing digital et achat en ligne</h3><div class="price">2,000 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
+<div class="card"><h3>Produits capillaires</h3><div class="price">1,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
-    <!-- FORMATION 8 -->
-    <div class="card">
-      <h3>💇🏽‍♀️ Tresses</h3>
-      <p>Aprann diferan teknik tresses.</p>
-      <div class="price">Disponib</div>
-      <a href="https://wa.me/50942901783">
-        Enskri
-      </a>
-    </div>
+<div class="card"><h3>Produits corporels</h3><div class="price">1,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
+<div class="card"><h3>Gommage</h3><div class="price">1,000 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
-    <!-- FORMATION 9 -->
-    <div class="card">
-      <h3>💄 Makiyaj</h3>
-      <p>Aprann teknik makiyaj pou diferan okazyon.</p>
-      <div class="price">Disponib</div>
-      <a href="https://wa.me/50942901783">
-        Enskri
-      </a>
-    </div>
+<div class="card"><h3>Création carte Wise</h3><div class="price">1,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
+<div class="card"><h3>Création carte MERU</h3><div class="price">1,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
-    <!-- FORMATION 10 -->
-    <div class="card">
-      <h3>🎀 Angleri</h3>
-      <p>Aprann teknik ak kreyasyon Angleri.</p>
-      <div class="price">Disponib</div>
-      <a href="https://wa.me/50942901783">
-        Enskri
-      </a>
-    </div>
+<div class="card"><h3>Création compte PayPal</h3><div class="price">1,000 Gdes</div><a class="btn" href="https://wa.me/50942901783">S'inscrire</a></div>
 
+</div>
 
-    <!-- FORMATION 11 -->
-    <div class="card">
-      <h3>🖨️ Pèsonalizasyon</h3>
-      <p>Aprann baz pèsonalizasyon ak kreyasyon pwodwi.</p>
-      <div class="price">Disponib</div>
-      <a href="https://wa.me/50942901783">
-        Enskri
-      </a>
-    </div>
-
-
-    <!-- FORMATION 12 -->
-    <div class="card">
-      <h3>📚 Formation Livres</h3>
-      <p>Aprann prepare pwodwi dijital tankou liv.</p>
-      <div class="price">Disponib</div>
-      <a href="https://wa.me/50942901783">
-        Enskri
-      </a>
-    </div>
-
-  </div>
+<div class="info">
+<p>🎓 Certificat: 750 Gdes à la fin des cours.</p>
+<br>
+<p>📌 Les frais ne sont pas remboursables.</p>
+</div>
 
 </section>
 
+<section>
 
-<section class="affiliate">
+<div class="title">
+<h2>🛍️ SERVICES DISPONIBLES</h2>
+</div>
 
-  <h2>💼 Vin ajan Digital Business Academy</h2>
+<div class="cards">
 
-  <p>
-    Travay avèk telefòn ou pou fè pwomosyon
-    formations, services ak produits nou yo.
-  </p>
+<div class="card"><h3>Création compte PayPal</h3><div class="price">1,000 Gdes</div><a class="btn" href="https://wa.me/50942901783">Commander</a></div>
 
-  <a class="button" href="https://wa.me/50942901783">
-    Mwen vle vin ajan
-  </a>
+<div class="card"><h3>Création carte Wise</h3><div class="price">1,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">Commander</a></div>
+
+<div class="card"><h3>Création carte MERU</h3><div class="price">1,500 Gdes</div><a class="btn" href="https://wa.me/50942901783">Commander</a></div>
+
+<div class="card"><h3>Abonnement Netflix</h3><div class="price">500 Gdes/mois</div><a class="btn" href="https://wa.me/50942901783">Commander</a></div>
+
+<div class="card"><h3>Boost Facebook, TikTok, Instagram</h3><div class="price">Prix à définir</div><a class="btn" href="https://wa.me/50942901783">Nous contacter</a></div>
+
+</div>
 
 </section>
 
+<section>
 
-<section class="section services">
+<div class="info">
 
-  <h2>💻 Sèvis nou yo</h2>
+<div class="title">
+<h2>📲 Contact</h2>
+</div>
 
-  <div class="cards">
+<p style="text-align:center">
+Pour inscription, paiement ou informations supplémentaires, contactez-nous sur WhatsApp.
+</p>
 
-    <div class="card">
-      <h3>💳 Compte PayPal</h3>
-      <p>Service de création de compte PayPal.</p>
-      <a href="https://wa.me/50942901783">
-        Kontakte nou
-      </a>
-    </div>
+<a class="whatsapp" href="https://wa.me/50942901783">
+💬 WhatsApp: 42 90 1783
+</a>
 
+</div>
 
-    <div class="card">
-      <h3>💳 Carte Wise</h3>
-      <p>Enfòmasyon ak asistans pou sèvis Wise.</p>
-      <a href="https://wa.me/50942901783">
-        Kontakte nou
-      </a>
-    </div >
+</section>
+
+<footer>
+<p>© 2026 Digital Business Academy</p>
+<p>Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
